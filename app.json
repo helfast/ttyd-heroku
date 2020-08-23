@@ -1,10 +1,17 @@
  
 {
   "name": "ttyd for Heroku ",
-  "description": "ttyd for Heroku ",
+  "description": "ttyd for Heroku",
   "env": {
-    "BUILD_TARGET":"x86_64",
-     "WITH_SSL": "false",
+    "BUILD_TARGET":{
+     "description": "DO NOT CHANGE",
+     "value": "x86_64"
+    },
+   
+     "WITH_SSL": {
+      "description": "DO NOT CHANGE",
+      "value": "false"
+     },
    
     "LOGIN_PASSWORD": {
        "description": "PASSWORD for Basic Auth Login",

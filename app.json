@@ -3,19 +3,7 @@
   "name": "ttyd for Heroku ",
   "description": "ttyd for Heroku ",
   "env": {
-
-   
-  # "LOGIN_PASSWORD": {
-  #     "description": "PASSWORD for Basic Auth Login",
-  #     "value": "admin"
-  #  },
-  # 
-  # "LOGIN_USER": {
-  #     "description": "USER for Basic Auth Login",
-  #     "value": "admin"
-  #   }
-   
-  },
+   },
  
   "website": "",
   "repository": "",

@@ -29,7 +29,7 @@ RUN apt-update; apt-get install -y --no-install-recommends \
         && rm -rf /var/lib/apt/lists/*
     
     
-ADD ./mc /app
+ADD ./mc /app/mc
 RUN chmod +x /app/mc && mv /app/mc /usr/local/bin/
 ENV LOGIN_USER admin
 ENV LOGIN_PASSWORD admin
@@ -38,4 +38,4 @@ ENV LOGIN_PASSWORD admin
 
 ENTRYPOINT ["/sbin/tini", "--"]
 #CMD ["ttyd", "bash"]
-CMD ttyd --port $PORT --credential admin:admin bash
+CMD ttyd --port $PORT --credential $LOGIN_USER:$LOGIN_PASSWORD bash

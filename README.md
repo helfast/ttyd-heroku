@@ -4,6 +4,10 @@
 
 ttyd is a simple command-line tool for sharing terminal over the web.
 
+```
+I've included the minio client binary file(mc) in this repo. Head over to [heroku-minio](https://github.com/capriciousduck/heroku-minio) to host your own MinIO server on Heroku. Remember to make a HTTP request to your app, for example, from UptimeRobot to prevent the dyno from sleeping.
+```
+
 ![screenshot](https://github.com/tsl0922/ttyd/raw/master/screenshot.gif)
 
 # Features

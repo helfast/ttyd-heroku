@@ -1,0 +1,10 @@
+ 
+{
+  "name": "ttyd for Heroku ",
+  "description": "ttyd for Heroku ",
+  "env": {
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }

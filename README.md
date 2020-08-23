@@ -16,48 +16,8 @@ ttyd is a simple command-line tool for sharing terminal over the web.
 - Basic authentication support and many other custom options
 - Cross platform: macOS, Linux, FreeBSD/OpenBSD, [OpenWrt](https://openwrt.org), Windows
 
-> ❤ Special thanks to [JetBrains](https://www.jetbrains.com/?from=ttyd) for sponsoring the opensource license to this project.
 
-# Installation
-
-## Install on macOS
-
-Install with [homebrew](http://brew.sh):
-
-```bash
-brew install ttyd
-```
-
-## Install on Linux
-
-- Binary version (recommended): download from the [releases](https://github.com/tsl0922/ttyd/releases) page.
-- Build from source (debian/ubuntu):
-
-    ```bash
-    sudo apt-get install build-essential cmake git libjson-c-dev libwebsockets-dev
-    git clone https://github.com/tsl0922/ttyd.git
-    cd ttyd && mkdir build && cd build
-    cmake ..
-    make && make install
-    ```
-
-    You may also need to compile/install [libwebsockets](https://libwebsockets.org) from source if the `libwebsockets-dev` package is outdated.
-
-- Install on Gentoo: clone the [repo](https://bitbucket.org/mgpagano/ttyd/src/master) and follow the directions [here](https://wiki.gentoo.org/wiki/Custom_repository#Creating_a_local_repository).
-
-## Install on Windows
-
-[Compile on Windows](https://github.com/tsl0922/ttyd/wiki/Compile-on-Windows).
-
-## Install on OpenWrt
-
-```bash
-opkg install ttyd
-```
-
-# Usage
-
-## Command-line Options
+## Command-line Options For Use In Dockerfile
 
 ```
 ttyd is a tool for sharing terminal over the web
@@ -99,11 +59,7 @@ Visit https://github.com/tsl0922/ttyd to get more information and report bugs.
 
 Read the example usage on the [wiki](https://github.com/tsl0922/ttyd/wiki/Example-Usage).
 
-## Browser Support
+# Reference
+https://github.com/tsl0922/ttyd
 
-Modern browsers, See [Browser Support](https://github.com/xtermjs/xterm.js#browser-support).
-
-## Alternatives
-
-* [Wetty](https://github.com/krishnasrinivas/wetty): [Node](https://nodejs.org) based web terminal (SSH/login)
-* [GoTTY](https://github.com/yudai/gotty): [Go](https://golang.org) based web terminal
+Thanks to *tsl0922*.

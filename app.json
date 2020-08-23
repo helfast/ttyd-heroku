@@ -3,6 +3,19 @@
   "name": "ttyd for Heroku ",
   "description": "ttyd for Heroku ",
   "env": {
+    "BUILD_TARGET":"x86_64",
+     "WITH_SSL": "false",
+   
+    "LOGIN_PASSWORD": {
+       "description": "PASSWORD for Basic Auth Login",
+       "value": "admin"
+    },
+   
+   "LOGIN_USER": {
+       "description": "USER for Basic Auth Login",
+       "value": "admin"
+     }
+   
    },
  
   "website": "",

@@ -1,8 +1,9 @@
  
 {
-  "name": "ttyd for Heroku ",
-  "description": "ttyd for Heroku",
+  "name": "ttyd on Heroku",
+  "description": "ttyd on Heroku",
   "env": {
+   
     "BUILD_TARGET":{
      "description": "DO NOT CHANGE",
      "value": "x86_64"
